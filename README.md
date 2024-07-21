@@ -93,7 +93,7 @@ In order for the image to be cropped, we need to identify where the animal is on
 
 
 ## Folder 3 - Model Training
-We will be utilizing the [MEWC Training Pipeline](https://github.com/zaandahl/mewc-train/tree/main) for the training process. The pipline utilize a docker image for training a model. You can visit the github repo for more informations
+We will be utilizing the [MEWC Training Pipeline](https://github.com/zaandahl/mewc-train/tree/main) for the training process. The pipline utilize a docker image for training a model. You can visit the github repo for more detailed information.
 
 Prerequisites: This assumes you have the images from last 2 folders into a main train and test folder. After the two folders of images are ready, here are the steps to train:
 
