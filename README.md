@@ -106,5 +106,18 @@ Prerequisites: This assumes you have the images from last 2 folders into a main 
    docker docker run --gpus all --env-file "path\\to\\your\\ENV\\file\\ENV.txt" --interactive --tty --rm --volume "path\\to\\your\\data\\folder:/data" zaandahl/mewc-train
 
 ## Folder 4 - Model Deployment
+This folder contains a basic set up for a local deployment of the model we developed using the MEWC Pipeline above. More detailed instructions of MEWC Model deployment can be found [here](https://github.com/PetervanLunteren/EcoAssist/blob/main/markdown/MEWC_integration.md)
+
+Here are the general steps to deploy:
+
+1. Locate the (`class_list.yaml`) and the (`mewc_model_300px_best.h5`) file from the output folder of MEWC training pipeline
+2. Create a (`variables.json`) file, this tells EcoAssist to grab our model for use
+3. Navigate to the EcoAssist backend (EcoAssist_files -> Models -> cls)
+4. Create a new folder and name it appropriately
+5. Copy and paste all three files into the newly created folder
+
+
+## Your model will now be ready to use within EcoAssit, happy classifying!
+
 
    
