@@ -31,5 +31,17 @@ To clone the repository, follow these steps:
 3. **Clone Repository**
 
    Run the following command to clone the repository:
+   ```sh
+   git clone https://github.com/ttgminh/Irvine-Ranch-Conservancy-Animal-Detect.git
+4. **Navigate into the repository directory**
+
+   Change into the newly created repository:
+   ```sh
+   cd Irvine-Ranch-Conservancy-Animal-Detect
+
+Once you have cloned the repository, you can start using the code and resources for the project. Make sure to read any additional documentation or instructions provided in the repository for specific usage details.
+
+Within each folder, there will be a separate README file with more specific instructions related to the contents and usage of that folder.
+   
    
    
