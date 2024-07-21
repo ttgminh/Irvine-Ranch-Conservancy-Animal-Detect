@@ -106,7 +106,7 @@ Prerequisites: This assumes you have all the processed images into a train folde
    docker docker run --gpus all --env-file "path\\to\\your\\ENV\\file\\ENV.txt" --interactive --tty --rm --volume "path\\to\\your\\data\\folder:/data" zaandahl/mewc-train
 
 ## Folder 4 - Model Deployment
-This folder contains a basic set up for a local deployment of the model we developed using the MEWC Pipeline above. More detailed instructions of MEWC Model deployment can be found [here](https://github.com/PetervanLunteren/EcoAssist/blob/main/markdown/MEWC_integration.md)
+This folder contains a basic set up for a local deployment of the model we developed from the MEWC Pipeline. We will leverage the EcoAssist GUI for using our model. More detailed instructions of MEWC Model deployment can be found [here](https://github.com/PetervanLunteren/EcoAssist/blob/main/markdown/MEWC_integration.md)
 
 Here are the general steps to deploy:
 
@@ -117,7 +117,7 @@ Here are the general steps to deploy:
 5. Copy and paste all three files into the newly created folder
 
 
-## Your model will now be ready to use within EcoAssit, happy classifying!
+## Your model will now be ready to use within EcoAssist, happy classifying!
 
 
    
