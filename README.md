@@ -75,6 +75,7 @@ After running the script, the images should be cropped, resized, squared accordi
 This folder includes the api script (`Inaturalist_API_Step1.ipynb`) and the image processing script (`Inaturalist_Data_Preprocessing_Step2.ipynb`). The two scripts will gather images from [Inaturalist](https://www.inaturalist.org/observations) and process the image for ML training ready like the step above. The process can be broken into 3 steps
 
 ### Step 1: Inatualist API (`Inaturalist_API_Step1.ipynb`)
+
 1. Gather the taxon ID and username from the site. The information can be found via the url of the site once you filter out the animal. An example can be found like below for mule deer(taxon_id=42220) from user sec_research.
    ```
    https://www.inaturalist.org/lifelists/sec_research?details_view=observations&taxon_id=42220
@@ -87,6 +88,8 @@ In order for the image to be cropped, we need to identify where the animal is on
 
 ### Step 3: Inaturalist Image Processing
 
+1. Define the Image Size, Confidence Level, and split train/test ratio accordingly.
+2. After running the script, two folders test and train will be created with corresponding processed images of the animals, you can now copy paste the images into the main train and test folder.
 
 
 ## Folder 3 - Model Training
