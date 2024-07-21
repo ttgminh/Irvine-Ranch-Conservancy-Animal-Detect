@@ -74,15 +74,20 @@ After running the script, the images should be cropped, resized, squared accordi
 ## Folder 2 - Inaturalist Images
 This folder includes the api script (`Inaturalist_API_Step1.ipynb`) and the image processing script (`Inaturalist_Data_Preprocessing_Step2.ipynb`). The two scripts will gather images from [Inaturalist](https://www.inaturalist.org/observations) and process the image for ML training ready like the step above. The process can be broken into 3 steps
 
-### Step 1: Inatualist API
-1. Gather the taxon ID and username from the site. The information can be found via the url of the site. An example can be found like below for mule deer(taxon_id=42220) from user sec_research.
+### Step 1: Inatualist API (`Inaturalist_API_Step1.ipynb`)
+1. Gather the taxon ID and username from the site. The information can be found via the url of the site once you filter out the animal. An example can be found like below for mule deer(taxon_id=42220) from user sec_research.
    ```
    https://www.inaturalist.org/lifelists/sec_research?details_view=observations&taxon_id=42220
 
 2. Input the given values according to the prompt of the script.
 3. Image will begin downloading, repeat the step again for other species
 
-### Step 2: Inaturalist Image Processing
+### Step 2: EcoAssist MegaDetector
+In order for the image to be cropped, we need to identify where the animal is on the images. We can utilize the MegaDetector model in EcoAssist to identify the animals in the images. After processing, EcoAssist will generate a (`image_recognition_file.json`) file for us to use in further processing
+
+### Step 3: Inaturalist Image Processing
+
+
 
 ## Folder 3 - Model Training
 
