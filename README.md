@@ -60,8 +60,7 @@ To run the script follow the steps:
 
 ## Folder 4 - Model Deployment
 
-### Example with Alignment:
-```markdown
+
 | Folder    | Description                              |
 |:----------|:-----------------------------------------|
 | `folder1` | Contains the main source code files.     |
