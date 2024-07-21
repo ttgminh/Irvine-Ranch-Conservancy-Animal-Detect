@@ -6,7 +6,7 @@ This repository contains the code and resources for the Irvine Ranch Conservancy
 - [Prerequisites](#prerequisites)
 - [Cloning the Repository](#cloning-the-repository)
 - [Usage](#usage)
-- [IRC Image](#irc_image)
+- [IRC Image](#irc-image)
 
 ## Prerequisites
 
