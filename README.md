@@ -95,9 +95,9 @@ In order for the image to be cropped, we need to identify where the animal is on
 ## Folder 3 - Model Training
 We will be utilizing the [MEWC Training Pipeline](https://github.com/zaandahl/mewc-train/tree/main) for the training process. The pipline utilize a docker image for training a model. You can visit the github repo for more detailed information.
 
-Prerequisites: This assumes you have the images from last 2 folders into a main train and test folder. After the two folders of images are ready, here are the steps to train:
+Prerequisites: This assumes you have all the processed images into a train folder and a test folder. After that is ready, here are the steps to train:
 
-1. Create an (`ENV.txt`) file similar to the one in the folder, specific environmenet variables are listed [here](https://github.com/zaandahl/mewc-train/tree/main)
+1. Create an (`ENV.txt`) file similar to the one given, specific environmenet variables are listed [here](https://github.com/zaandahl/mewc-train/tree/main)
 2. Start Docker Engine
 3. Open Windows Powershell
 4. Run the following commands
