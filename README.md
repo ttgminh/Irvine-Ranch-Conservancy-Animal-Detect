@@ -29,3 +29,7 @@ To clone the repository, follow these steps:
    ```sh
    cd /path/to/your/directory
 3. **Clone Repository**
+
+   Run the following command to clone the repository:
+   
+   
