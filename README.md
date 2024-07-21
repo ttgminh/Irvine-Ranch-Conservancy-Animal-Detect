@@ -52,7 +52,7 @@ The folder contains the script to process labeled images from Irvine Ranch Conse
 To run the script follow the steps:
 
 1. Replace the input and output path in the script
-2. Define Image size and ratio by directly. Default is 300 for size and 70/30 for train/test ratio
+2. Define Image size and ratio by editing the values. Default is 300 for image size and 70/30 for train/test ratio. Size is determined by the model type
 
 ## Folder 2 - Inaturalist Images
 
@@ -60,5 +60,13 @@ To run the script follow the steps:
 
 ## Folder 4 - Model Deployment
 
+### Example with Alignment:
+```markdown
+| Folder    | Description                              |
+|:----------|:-----------------------------------------|
+| `folder1` | Contains the main source code files.     |
+| `folder2` | Contains image resources.                |
+| `folder3` | Contains documentation and manuals.      |
+| `folder4` | Contains test cases and test data.       |
 
    
