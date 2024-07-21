@@ -37,6 +37,7 @@ To clone the repository, follow these steps:
    ```sh
    cd Irvine-Ranch-Conservancy-Animal-Detect
 
+##Usage
 Once you have cloned the repository, you can start using the code and resources for the project. Make sure to read any additional documentation or instructions provided in the repository for specific usage details.
    
    
