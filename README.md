@@ -53,12 +53,21 @@ To run the script follow the steps:
 
 1. Replace the input and output path in the script
 2. Define Image size and ratio by editing the values. Default is 300 for image size and 70/30 for train/test ratio. Size is determined by the efficient net model type.
-| Efficient Net Model    | Image Size                              |
-|:----------|:-----------------------------------------|
-| `folder1` | Contains the main source code files.     |
-| `folder2` | Contains image resources.                |
-| `folder3` | Contains documentation and manuals.      |
-| `folder4` | Contains test cases and test data.       |
+
+| Model       | Image Size (px) |
+|-------------|-----------------|
+| EN-B0       | 224             |
+| EN-B1       | 240             |
+| EN-B2       | 260             |
+| EN-B3       | 300             |
+| EN-B4       | 380             |
+| EN-B5       | 456             |
+| EN-B6       | 528             |
+| EN-B7       | 600             |
+| EN-V2S      | 300             |
+| EN-V2M      | 384             |
+| EN-V2L      | 480             |
+| MN-V3-S     | 224             |
 
 ## Folder 2 - Inaturalist Images
 
