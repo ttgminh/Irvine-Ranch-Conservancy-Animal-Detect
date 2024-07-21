@@ -6,7 +6,10 @@ This repository contains the code and resources for the Irvine Ranch Conservancy
 - [Prerequisites](#prerequisites)
 - [Cloning the Repository](#cloning-the-repository)
 - [Usage](#usage)
-- [Folder 1 - IRC Image](#folder-1---irc-image)
+- [Folder 1 - IRC Images](#folder-1---irc-images)
+- [Folder 2 - Inaturalist Images](#folder-2---inaturalist-images)
+- [Folder 3 - Model Training](#folder-3---model-training)
+- [Folder 4 - Model Deployment](#folder-4---model-deployment)
 
 ## Prerequisites
 
@@ -42,7 +45,13 @@ To clone the repository, follow these steps:
 
 Once you have cloned the repository, you can start using the code and resources for the project. Make sure to read any additional documentation or instructions provided in the repository for specific usage details.
    
-## Folder 1 - IRC Image
+## Folder 1 - IRC Images
 
-Just to test
+## Folder 2 - Inaturalist Images
+
+## Folder 3 - Model Training
+
+## Folder 4 - Model Deployment
+
+
    
