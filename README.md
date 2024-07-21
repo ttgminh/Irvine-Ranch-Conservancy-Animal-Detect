@@ -6,7 +6,7 @@ This repository contains the code and resources for the Irvine Ranch Conservancy
 - [Prerequisites](#prerequisites)
 - [Cloning the Repository](#cloning-the-repository)
 - [Usage](#usage)
-- [Folder 1 - IRC Image](#irc_image)
+- [IRC Image](#irc_image)
 
 ## Prerequisites
 
@@ -42,7 +42,7 @@ To clone the repository, follow these steps:
 
 Once you have cloned the repository, you can start using the code and resources for the project. Make sure to read any additional documentation or instructions provided in the repository for specific usage details.
    
-## Folder 1 - IRC Image
+## IRC Image
 
 Just to test
    
