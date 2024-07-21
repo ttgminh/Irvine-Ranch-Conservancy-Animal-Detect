@@ -47,12 +47,21 @@ Once you have cloned the repository, you can start using the code and resources 
    
 ## Folder 1 - IRC Images
 
-The folder contains the script to process labeled images from Irvine Ranch Conservancy fr ML ready training. Each image is corresponded with a txt file of the animal label and the bounding box coordinates. 
+The folder contains the script to process labeled images from Irvine Ranch Conservancy for ML ready training. Each image is corresponded with a txt file of the animal label and the bounding box coordinates. 
 
 To run the script follow these steps:
 
 1. Replace the input and output path in the script
 2. Define Image size and ratio by editing the values. Default is 300 for image size and 70/30 for train/test ratio. Size is determined by the efficient net model type.
+
+1. **Replace Paths**:
+   - Update the script to include the correct input and output paths.
+
+2. **Define Image Size and Ratio**:
+   - Edit the script to set the desired image size and train/test ratio.
+   - The default image size is 300.
+   - The default train/test ratio is 70/30.
+   - Note: The image size is determined by the EfficientNet model type.
 
 | Model       | Image Size (px) |
 |-------------|-----------------|
