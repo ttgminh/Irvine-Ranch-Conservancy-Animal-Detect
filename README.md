@@ -86,7 +86,7 @@ This folder includes the api script (`Inaturalist_API_Step1.ipynb`) and the imag
 ### Step 2: EcoAssist MegaDetector
 In order for the image to be cropped, we need to identify where the animal is on the images. We can utilize the MegaDetector model in EcoAssist to identify the animals in the images. After processing, EcoAssist will generate a (`image_recognition_file.json`) file for us to use in further processing
 
-### Step 3: Inaturalist Image Processing
+### Step 3: Inaturalist Image Processing (`Inaturalist_Data_Preprocessing_Step2.ipynb`)
 
 1. Define the Image Size, Confidence Level, and split train/test ratio accordingly.
 2. After running the script, two folders test and train will be created with corresponding processed images of the animals, you can now copy paste the images into the main train and test folder.
