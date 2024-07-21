@@ -52,16 +52,7 @@ The folder contains the script to process labeled images from Irvine Ranch Conse
 To run the script follow these steps:
 
 1. Replace the input and output path in the script
-2. Define Image size and ratio by editing the values. Default is 300 for image size and 70/30 for train/test ratio. Size is determined by the efficient net model type.
-
-1. **Replace Paths**:
-   - Update the script to include the correct input and output paths.
-
-2. **Define Image Size and Ratio**:
-   - Edit the script to set the desired image size and train/test ratio.
-   - The default image size is 300.
-   - The default train/test ratio is 70/30.
-   - Note: The image size is determined by the EfficientNet model type.
+2. Define Image size and train/test split ratio by editing the values. Default is 300 for image size and 70/30 for train/test ratio. Size is determined by the efficient net model type.
 
 | Model       | Image Size (px) |
 |-------------|-----------------|
@@ -81,7 +72,17 @@ To run the script follow these steps:
 After running the script, the images should be cropped, resized, squared accordingly.
 
 ## Folder 2 - Inaturalist Images
+This folder includes the api script (`Inaturalist_API_Step1.ipynb`) and the image processing script (`Inaturalist_Data_Preprocessing_Step2.ipynb`). The two scripts will gather images from [Inaturalist](https://www.inaturalist.org/observations) and process the image for ML training ready like the step above. The process can be broken into 3 steps
 
+### Step 1: Inatualist API
+1. Gather the taxon ID and username from the site. The information can be found via the url of the site. An example can be found like below for mule deer(taxon_id=42220) from user sec_research.
+   ```
+   https://www.inaturalist.org/lifelists/sec_research?details_view=observations&taxon_id=42220
+
+2. Input the given values according to the prompt of the script.
+3. Image will begin downloading, repeat the step again for other species
+
+### Step 2: Inaturalist Image Processing
 
 ## Folder 3 - Model Training
 
