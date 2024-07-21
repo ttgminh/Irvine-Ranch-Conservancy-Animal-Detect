@@ -72,7 +72,7 @@ To run the script follow these steps:
 After running the script, the images should be cropped, resized, squared accordingly.
 
 ## Folder 2 - Inaturalist Images
-This folder includes the api script (`Inaturalist_API_Step1.ipynb`) and the image processing script (`Inaturalist_Data_Preprocessing_Step2.ipynb`). The two scripts will gather images from [Inaturalist](https://www.inaturalist.org/observations) and process the image for ML training ready like the step above. The process can be broken into 3 steps
+This folder includes the api script (`Inaturalist_API_Step1.ipynb`) and the image processing script (`Inaturalist_Data_Preprocessing_Step2.ipynb`). The two scripts will gather images from [Inaturalist](https://www.inaturalist.org/observations) and process the image for ML training ready like the step above. The process can be broken into 3 steps:
 
 ### Step 1: Inatualist API (`Inaturalist_API_Step1.ipynb`)
 
@@ -81,10 +81,10 @@ This folder includes the api script (`Inaturalist_API_Step1.ipynb`) and the imag
    https://www.inaturalist.org/lifelists/sec_research?details_view=observations&taxon_id=42220
 
 2. Input the given values according to the prompt of the script.
-3. Image will begin downloading, repeat the step again for other species
+3. Image will begin downloading, repeat the step again for other species.
 
 ### Step 2: EcoAssist MegaDetector
-In order for the image to be cropped, we need to identify where the animal is on the images. We can utilize the MegaDetector model in EcoAssist to identify the animals in the images. After processing, EcoAssist will generate a (`image_recognition_file.json`) file for us to use in further processing
+In order for the image to be cropped, we need to identify where the animal is on the images. We can utilize the MegaDetector model in EcoAssist to identify the animals in the images. After processing, EcoAssist will generate a (`image_recognition_file.json`) file for us to use in further processing.
 
 ### Step 3: Inaturalist Image Processing (`Inaturalist_Data_Preprocessing_Step2.ipynb`)
 
@@ -97,27 +97,27 @@ We will be utilizing the [MEWC Training Pipeline](https://github.com/zaandahl/me
 
 Prerequisites: This assumes you have all the processed images into a train folder and a test folder. After that is ready, here are the steps to train:
 
-1. Create an (`ENV.txt`) file similar to the one given, specific environmenet variables are listed [here](https://github.com/zaandahl/mewc-train/tree/main)
-2. Start Docker Engine
-3. Open Windows Powershell
-4. Run the following commands
+1. Create an (`ENV.txt`) file similar to the one given, specific environmenet variables are listed [here](https://github.com/zaandahl/mewc-train/tree/main).
+2. Start Docker Engine.
+3. Open Windows Powershell.
+4. Run the following commands.
    ```
    docker pull zaandahl/mewc-train
    docker docker run --gpus all --env-file "path\\to\\your\\ENV\\file\\ENV.txt" --interactive --tty --rm --volume "path\\to\\your\\data\\folder:/data" zaandahl/mewc-train
 
 ## Folder 4 - Model Deployment
-This folder contains a basic set up for a local deployment of the model we developed from the MEWC Pipeline. We will leverage the EcoAssist GUI for using our model. More detailed instructions of MEWC Model deployment can be found [here](https://github.com/PetervanLunteren/EcoAssist/blob/main/markdown/MEWC_integration.md)
+This folder contains a basic set up for a local deployment of the model we developed from the MEWC Pipeline. We will leverage the EcoAssist GUI for using our model. More detailed instructions of MEWC Model deployment can be found [here](https://github.com/PetervanLunteren/EcoAssist/blob/main/markdown/MEWC_integration.md).
 
 Here are the general steps to deploy:
 
-1. Locate the (`class_list.yaml`) and the (`mewc_model_300px_best.h5`) file from the output folder of MEWC training pipeline
-2. Create a (`variables.json`) file, this tells EcoAssist to grab our model for use
-3. Navigate to the EcoAssist backend (EcoAssist_files -> Models -> cls)
-4. Create a new folder and name it appropriately
-5. Copy and paste all three files into the newly created folder
+1. Locate the (`class_list.yaml`) and the (`mewc_model_300px_best.h5`) file from the output folder of MEWC training pipeline.
+2. Create a (`variables.json`) file, this tells EcoAssist to grab our model for use.
+3. Navigate to the EcoAssist backend (EcoAssist_files -> Models -> cls).
+4. Create a new folder and name it appropriately.
+5. Copy and paste all three files into the newly created folder.
 
 
-## Your model will now be ready to use within EcoAssist, happy classifying!
+## Your model is now be ready to use within EcoAssist, happy classifying!
 
 
    
