@@ -1,6 +1,10 @@
 # Irvine Ranch Conservancy Animal Detection
 
-This repository contains the code and resources for the Irvine Ranch Conservancy Animal Detection project. Follow the instructions below to clone the repository and get started.
+This repository contains the code and resources for the Irvine Ranch Conservancy Animal Detection project. The project utilizes the [MEWC Pipeline](https://github.com/zaandahl/mewc-train) as our model training mechanism and [EcoAssist](https://github.com/PetervanLunteren/EcoAssist) as the main interface which we deploy our trained models. 
+
+The workflow is summarized in the diagram here:
+![image](https://github.com/user-attachments/assets/260af662-1e3e-46bd-a2e8-f61e5d97227f)
+
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
