@@ -20,6 +20,7 @@ The workflow is summarized in the diagram here:
 Before you begin, ensure you have met the following requirements:
 - You have installed [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 - You have a [GitHub](https://github.com) account.
+- You have installed [EcoAssist](https://addaxdatascience.com/ecoassist/) on your device
 
 ## Cloning the Repository
 
