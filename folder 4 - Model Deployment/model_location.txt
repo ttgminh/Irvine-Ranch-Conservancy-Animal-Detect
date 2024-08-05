@@ -1,1 +1,0 @@
-https://huggingface.co/ttgminh/IRC_MEWC_ENV2/tree/main
