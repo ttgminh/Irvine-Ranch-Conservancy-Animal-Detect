@@ -107,7 +107,7 @@ Prerequisites: This assumes you have all the processed images into a train folde
 3. Open Windows Powershell.
 4. Run the following commands.
    ```
-   docker pull zaandahl/mewc-train
+   docker pull zaandahl/mewc-train:v1.0.10
    docker docker run --gpus all --env-file "path\\to\\your\\ENV\\file\\ENV.txt" --interactive --tty --rm --volume "path\\to\\your\\data\\folder:/data" zaandahl/mewc-train
 
 ## Folder 4 - Model Deployment
